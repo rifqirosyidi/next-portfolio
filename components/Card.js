@@ -5,7 +5,7 @@ const Card = ({ link = "#", src, alt, date, title, description }) => {
     <div className="flex flex-col md:flex-row items-center mb-20 md:mb-10">
       <div className="w-full md:w-auto md:mx-10">
         <a href={link} target="_blank">
-          <div className="cursor-pointer bg-white  rounded transition duration-1000 hover:scale-105">
+          <div className="cursor-pointer bg-white rounded transition duration-1000 hover:scale-105">
             <Image
               src={src}
               alt={alt}

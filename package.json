@@ -6,6 +6,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@formspree/react": "^2.2.4",
     "classnames": "^2.3.1",
     "next": "latest",
     "next-themes": "^0.0.15",
