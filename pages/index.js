@@ -63,7 +63,7 @@ export default function Home({ articles }) {
 
 export async function getStaticProps() {
   const res = await fetch(
-    `https://cms.devsign.id/articles?_limit=2&_author.slug=rifqi-rosyidi&_sort=id:asc`
+    `https://cms.devsign.id/articles?_limit=2&_author.slug=rifqi-rosyidi&_sort=published_at:asc`
   );
   const articles = await res.json();
 
