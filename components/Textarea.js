@@ -5,7 +5,7 @@ const Textarea = ({ label, id, name, type = "text", placeholder }) => {
     <div className="mb-10">
       <label
         className="font-primary text-gray-500 dark:text-gray-300 block pb-4"
-        for={id}
+        htmlFor={id}
       >
         {label}
       </label>
