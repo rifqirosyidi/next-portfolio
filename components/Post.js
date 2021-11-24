@@ -15,7 +15,7 @@ const Post = ({ publishedDate, slug, title, description }) => {
         <h3 className="font-primary font-medium md:font-bold text-gray-500 dark:text-gray-300 tracking-wide md:tracking-wider text-lg  md:text-md lg:text-2xl">
           {title}
         </h3>
-        <p className="mt-2 font-secondary font-light text-gray-500 text-sm md:text-md lg:text-lg md:w-2/3">
+        <p className="mt-2 font-secondary font-light text-gray-500 dark:text-gray-300 text-sm md:text-md lg:text-lg md:w-2/3">
           {description}
         </p>
         <div className="-ml-4 md:mt-5  text-left">

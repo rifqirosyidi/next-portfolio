@@ -26,7 +26,7 @@ const Card = ({ link = "#", src, alt, date, title, description }) => {
         >
           {title}
         </a>
-        <p className="font-secondary text-gray-500 text-md font-light text-light">
+        <p className="font-secondary text-gray-500 dark:text-gray-300 text-md font-light text-light">
           {description}
         </p>
       </div>
