@@ -9,7 +9,7 @@ const Section = ({ title, description, id }) => {
       >
         {title}
       </h2>
-      <p className="font-primary text-gray-400 text-sm md:text-lg mt-2 md:w-1/2 md:border-l-2 md:pl-10 md:py-10 md:border-gray-400 lg:ml-56 lg:mt-10 ">
+      <p className="font-secondary text-gray-500 text-sm font-light md:text-lg mt-5 lg:mt-10 ">
         {description}
       </p>
     </div>

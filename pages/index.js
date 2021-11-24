@@ -10,13 +10,13 @@ import Section from "../components/Section";
 
 export default function Home({ articles }) {
   return (
-    <div className="bg-gray-100 dark:bg-gray-800">
+    <div className="bg-white dark:bg-gray-800">
       <Head>
         <title>My Portfolio</title>
         <link rel="icon" href="/favicon.ico" />
         <link
           rel="stylesheet"
-          href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;700&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700&family=Kreon:wght@300;400;500&display=swap"
         />
       </Head>
 

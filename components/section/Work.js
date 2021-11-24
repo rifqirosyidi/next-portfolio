@@ -9,7 +9,7 @@ import RecentPortfolio from "../../public/assets/image/recent_portfolio.png";
 const Work = () => {
   return (
     <>
-      <div className="lg:px-4">
+      <div className="grid md:grid-cols-2 md:gap-10">
         <Card
           src={OldPortfolio}
           alt="Old portfolio image"

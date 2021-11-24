@@ -1,25 +1,24 @@
 import Image from "next/image";
+import PostDate from "./PostDate";
 
 const Card = ({ link = "#", src, alt, date, title, description }) => {
   return (
-    <div className="flex flex-col md:flex-row items-center mb-20 md:mb-10">
-      <div className="w-full md:w-auto md:mx-10">
+    <div>
+      <div className="w-full md:w-auto">
         <a href={link} target="_blank">
-          <div className="cursor-pointer bg-white rounded transition duration-1000 hover:scale-105">
+          <div className="cursor-pointer p-10 mx-auto text-center shadow-primary bg-white rounded transition duration-1000 hover:scale-105">
             <Image
               src={src}
               alt={alt}
               width="300"
               height="200"
-              className="object-scale-down grayscale"
+              className="object-cover grayscale"
             />
           </div>
         </a>
-        <p className="hidden md:block md:text-right text-gray-400 font-primary text-lg my-4">
-          {date}
-        </p>
       </div>
-      <div className="mt-4 md:-mt-20">
+      <div className="">
+        <PostDate>{date}</PostDate>
         <a
           href={link}
           target="_blank"
@@ -27,7 +26,9 @@ const Card = ({ link = "#", src, alt, date, title, description }) => {
         >
           {title}
         </a>
-        <p className="font-primary text-gray-400 text-sm">{description}</p>
+        <p className="font-secondary text-gray-500 text-md font-light text-light">
+          {description}
+        </p>
       </div>
     </div>
   );
