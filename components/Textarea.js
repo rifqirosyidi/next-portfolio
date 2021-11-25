@@ -11,7 +11,7 @@ const Textarea = ({ label, id, name, type = "text", placeholder }) => {
       </label>
       <textarea
         id={id}
-        className="font-primary text-gray-500 bg-gray-200 dark:bg-gray-900 shadow-inner p-4 rounded-lg w-full transition duration-500 transform focus:outline-none focus:ring focus:ring-gray-500 focus:bg-white focus:shadow-lg focus:scale-105"
+        className="font-primary text-gray-500 bg-gray-200 dark:bg-gray-800 shadow-inner p-4 rounded-lg w-full transition duration-500 transform focus:outline-none focus:ring focus:ring-gray-500 focus:bg-white focus:shadow-lg focus:scale-105"
         placeholder={placeholder}
         type={type}
         name={name}

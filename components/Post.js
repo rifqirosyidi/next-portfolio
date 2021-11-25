@@ -12,9 +12,12 @@ const Post = ({ publishedDate, slug, title, description }) => {
       </div>
 
       <div className="md:col-span-3">
-        <h3 className="font-primary font-medium md:font-bold text-gray-500 dark:text-gray-300 tracking-wide md:tracking-wider text-lg  md:text-md lg:text-2xl">
+        <a
+          href={link}
+          className="font-primary block transition duration-500 transform hover:-translate-y-2 font-medium md:font-bold text-gray-500 dark:text-gray-300 tracking-wide md:tracking-wider text-lg  md:text-md lg:text-2xl"
+        >
           {title}
-        </h3>
+        </a>
         <p className="mt-2 font-secondary font-light text-gray-500 dark:text-gray-300 text-sm md:text-md lg:text-lg md:w-2/3">
           {description}
         </p>

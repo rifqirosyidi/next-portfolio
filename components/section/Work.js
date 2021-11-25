@@ -35,14 +35,6 @@ const Work = () => {
           description="A simple website to show recipes from all over the world using edamam api"
         />
         <Card
-          src={RecentPortfolio}
-          alt="Recent porfolio"
-          link="https://rief.netlify.app"
-          title="Recent Portfolio"
-          date="Des 20"
-          description="Just another portfolio, built using Gatsbyjs and Framer Motion with TailwindCSS."
-        />
-        <Card
           src={OldPortfolio}
           alt="Another Github Portfolio"
           link="https://rifqirosyidi.github.io"

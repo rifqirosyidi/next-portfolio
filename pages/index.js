@@ -10,7 +10,7 @@ import Section from "../components/Section";
 
 export default function Home({ articles }) {
   return (
-    <div className="bg-white dark:bg-gray-800">
+    <div className="bg-white dark:bg-gray-900">
       <Head>
         <title>My Portfolio</title>
         <link rel="icon" href="/favicon.ico" />

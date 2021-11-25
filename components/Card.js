@@ -6,13 +6,13 @@ const Card = ({ link = "#", src, alt, date, title, description }) => {
     <div>
       <div className="w-full md:w-auto">
         <a href={link} target="_blank">
-          <div className="cursor-pointer p-10 mx-auto text-center shadow-primary bg-white rounded transition duration-1000 hover:scale-105">
+          <div className="cursor-pointer p-10 mx-auto text-center bg-white rounded transition duration-1000 hover:scale-95">
             <Image
               src={src}
               alt={alt}
               width="300"
               height="200"
-              className="object-cover grayscale"
+              className="object-cover"
             />
           </div>
         </a>
